@@ -1,0 +1,346 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  margin:0;
+}
+
+img{
+  position:absolute;
+  z-index: -1;
+}
+header:: after{
+  content: '';
+  display: table;
+  clear: both;
+}
+nav ul{
+  margin: 5;
+  padding:0;
+  list-style: none;
+}
+li{
+  display: inline-block;
+  margin: 0 10px;
+  padding-top: 23px;
+  position: relative;
+}
+a{
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+}
+
+a:before{
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #4EADDD;
+
+  position:absolute
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+a:hover::before{
+  width:100%;
+
+}
+a.selected{
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #47C795;
+  width:100%;
+  top:0;
+
+}
+#home {
+  margin:0;
+  background-color: #FFDE02;
+  text-align: center;
+  font-weight: 800;
+}
+/* I’M JOJO, */
+.intro {
+  padding-top: 10%;
+  font-size:90px;
+  line-height: 80px;
+}
+/* Short intro */
+.sentence {
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.button-1{
+  left: 43%;
+  width:140px;
+  height:50px;
+  border:2px solid #000000;
+  border-radius: 25px;
+  background: #FFFFFF;
+  float:left;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+
+}
+.button-1 a{
+  font-size:16px;
+  color:#000000;
+  text-decoration:none;
+  line-height:40px;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+}
+.eff-1{
+  width:140px;
+  height:50px;
+  top:-2px;
+  right:-140px;
+  background:linear-gradient(#4EADDD, #47C795);
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+.button-1:hover .eff-1{
+  right:0;
+}
+.button-1:hover a{
+  color:#000000;
+}
+#about {
+  background-color: #4EADDD;
+
+}
+#about .navigation{
+  text-align: center;
+}
+#about a:before{
+  background-color: #FFDE02;
+}
+.things{
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 50%;
+}
+.title{
+  position: absolute;
+  margin-left: 20%;
+  font-size: 80px;
+  color:#FFFFFF;
+}
+#skills {
+  background-color: #47C795;
+  text-align: center;
+}
+#skills a:before{
+  background-color: #4EADDD;
+}
+#skills a.selected{
+  background-color: #FFDE02;
+}
+#experience {
+  background-color: #FFDE02;
+  text-align: center;
+  margin-bottom: 40%;
+}
+.title{
+  position: absolute;
+  margin-left: 20%;
+  font-size: 80px;
+}
+.heading1 {
+  position: absolute;
+  font-size: 50px;
+  margin-left: 20%;
+  margin-top:10%;
+}
+.pr {
+  position: absolute;
+  font-size: 17px;
+  margin-left: 20%;
+  margin-right:20%;
+  margin-top:20%;
+  text-align: left;
+}
+.heading2 {
+  position: absolute;
+  font-size: 50px;
+  margin-left: 20%;
+  margin-top:30%;
+}
+.assis {
+  position: absolute;
+  font-size: 17px;
+  margin-left: 20%;
+  margin-right:20%;
+  margin-top:35%;
+  text-align: left;
+  padding-bottom: 50px;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+#contactme {
+  background-color: #47C795;
+  text-align: center;
+}
+#contactme a:before{
+  background-color: #4EADDD;
+}
+#contactme a.selected{
+  background-color: #FFDE02;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #47C795;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #4EADDD;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+#projects {
+  background-color: #4EADDD;
+
+}
+#projects .navigation{
+  text-align: center;
+}
+#projects .navigation a:before{
+  background-color: #FFDE02;
+}
+.des {
+  margin-left: 20%;
+  color: #FFFFFF;
+  margin-top: 8%;
+  position:absolute;
+}
