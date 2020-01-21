@@ -151,37 +151,37 @@ a.selected{
 }
 .title{
   position: absolute;
-  margin-left: 20%;
+  margin-left: 20vw;
   font-size: 80px;
 }
 .heading1 {
   position: absolute;
   font-size: 50px;
-  margin-left: 20%;
+  margin-left: 20vw;
   margin-top:10%;
 }
 .pr {
   position: absolute;
   font-size: 17px;
-  margin-left: 20%;
-  margin-right:20%;
-  margin-top:20%;
+  margin-left: 20vw;
+  margin-right:20vw;
+  margin-top:20vw;
   text-align: left;
 }
 .heading2 {
   position: absolute;
   font-size: 50px;
-  margin-left: 20%;
-  margin-top:30%;
+  margin-left: 20vw;
+  margin-top:40vw;
 }
 .assis {
   position: absolute;
   font-size: 17px;
-  margin-left: 20%;
-  margin-right:20%;
-  margin-top:35%;
+  margin-left: 20vw;
+  margin-right:20vw;
+  margin-top:50vw;
   text-align: left;
-  padding-bottom: 50px;
+  padding-bottom: 10vw;
 }
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 * {
