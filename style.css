@@ -107,6 +107,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     padding-top: 8%;
 }
 .hero .computer {
@@ -161,17 +162,24 @@ ul {
 }
 .projectCards {
     display: flex;
-    justify-self: center;
-    justify-content: space-around;
-    flex-direction: row;
-    margin: 3% 10% 3% 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3% 7% 3% 7%;
+
+
 
 }
 .projectCard {
     padding: 2rem;
-    margin-right: 2rem;
-    border-radius: 8px;
+    margin: 1.5rem;
+    width: 18rem;
+    height: 19rem;
     background-color: var(--light-gray);
+    border-radius: 8px;
+}
+.interest {
+    height: 10rem;
+    width: 14rem;
 }
 
 #projects .projectCard:hover {
@@ -432,4 +440,13 @@ ul {
 }
 .title a {
     color: var(--blue);
+}
+.classes {
+  text-align: center;
+  margin: 5% 10% 2% 10%;
+}
+
+.classes ul{
+  padding: 2rem;
+
 }
