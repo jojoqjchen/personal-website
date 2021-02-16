@@ -8,18 +8,22 @@
 
 </head>
 <body>
-<nav class="navbar">
-    <div class="container">
-        <a href="index.html" class="logo">Jojo Chen</a>
-        <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#projects" class="selected">Projects</a></li>
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="resume.pdf" target="_blank">Resume</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-    </div>
-</nav>
+    <nav class="navbar" id="topNav">
+        <div class="container">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fa fa-bars"></i>
+            </span>
+            <a href="index.html" class="logo">Jojo Chen</a>
+            <ul class="nav" id="js-menu">
+                <li><a href="index.html" class="selected nav-links">Home</a></li>
+                <li><a href="index.html#projects" class="nav-links">Projects</a></li>
+                <li><a href="index.html#about" class="nav-links">About</a></li>
+                <li><a href="resume.pdf" target="_blank" class="nav-links">Resume</a></li>
+                <li><a href="index.html#contact" class="nav-links">Contact</a></li>
+           
+            </ul>
+        </div>
+    </nav>
 <main>
     <div class="projectHero twoColumn calhackshero">
         <div class="projectHeroText">
@@ -42,7 +46,7 @@
             <p class="underline"><a href="http://calhacks.io">Cal Hacks</a> is a student run nonprofit at UC Berkeley and organizes the largest collegiate hackathon in the US.
                 As the design lead, I am responsible for keeping designs for our initiatives consistent and on schedule.</p>
         </div>
-        <img id="calhacksComputer" src="images/calHacks/calHacksComputer.svg" alt="The Codex">
+        <img class="computer" id="calhacksComputer" src="images/calHacks/calHacksComputer.svg" alt="The Codex">
     </div>
 
     <div class="overview textOnly">

@@ -7,18 +7,22 @@
     <link rel="shortcut icon" href="/images/favicon.ico">
 </head>
 <body>
-<nav class="navbar">
-    <div class="container">
-        <a href="index.html" class="logo">Jojo Chen</a>
-        <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#projects" class="selected">Projects</a></li>
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="resume.pdf" target="_blank">Resume</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-    </div>
-</nav>
+    <nav class="navbar" id="topNav">
+        <div class="container">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fa fa-bars"></i>
+            </span>
+            <a href="index.html" class="logo">Jojo Chen</a>
+            <ul class="nav" id="js-menu">
+                <li><a href="index.html" class="selected nav-links">Home</a></li>
+                <li><a href="index.html#projects" class="nav-links">Projects</a></li>
+                <li><a href="index.html#about" class="nav-links">About</a></li>
+                <li><a href="resume.pdf" target="_blank" class="nav-links">Resume</a></li>
+                <li><a href="index.html#contact" class="nav-links">Contact</a></li>
+           
+            </ul>
+        </div>
+    </nav>
 <main>
     <div class="projectHero twoColumn">
         <div class="projectHeroText">
@@ -46,7 +50,7 @@
             </div>
             <p class="underline">Check out the site <a href="https://thecodex.me/">here.</a></p>
         </div>
-        <img id="codexComputer" src="images/codex/codexComputer.svg" alt="The Codex">
+        <img class="computer" id="codexComputer" src="images/codex/codexComputer.svg" alt="The Codex">
     </div>
 
     <div class="overview textOnly">

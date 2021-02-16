@@ -10,6 +10,12 @@ const newWordDelay = 1000;
 let wordIndex = 0;
 let charIndex = 0;
 
+let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        navBarToggle.addEventListener('click', function () {
+            mainNav.classList.toggle('active');
+        });
+
 function type() {
     if (charIndex < words[wordIndex].length) {
         if(!cursor.classList.contains("typing")) cursor.classList.add("typing");
@@ -46,3 +52,4 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() {
   setTimeout(type, newWordDelay);
 });
+

@@ -4,17 +4,25 @@
     <title>Jojo Chen</title>
     <link rel="stylesheet" type= "text/css" href="style.css">
     <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        
+    </script>
 </head>
 <body id ="home">
-<nav class="navbar">
+<nav class="navbar" id="topNav">
     <div class="container">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
         <a href="index.html" class="logo">Jojo Chen</a>
-        <ul class="nav">
-            <li><a href="index.html" class="selected">Home</a></li>
-            <li><a href="index.html#projects">Projects</a></li>
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="resume.pdf" target="_blank">Resume</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+        <ul class="nav" id="js-menu">
+            <li><a href="index.html" class="selected nav-links">Home</a></li>
+            <li><a href="index.html#projects" class="nav-links">Projects</a></li>
+            <li><a href="index.html#about" class="nav-links">About</a></li>
+            <li><a href="resume.pdf" target="_blank" class="nav-links">Resume</a></li>
+            <li><a href="index.html#contact" class="nav-links">Contact</a></li>
+       
         </ul>
     </div>
 </nav>
@@ -106,6 +114,7 @@
 
     <div class="aboutPast" id="about">
         <div class = "about twoColumn">
+            
             <div class="aboutText">
                 <h4 class="title">About</h4>
                 <p>Hey there! I’m Jojo, a 2nd-year computer science student @ UC Berkeley.
@@ -115,6 +124,8 @@
                 <p><b>Skills:</b> Java, Python, HTML, CSS, Javascript, Github, C, Figma, Adobe Illustrator, Photoshop, Microsoft Office, Google Analytics, Amplitude, coordinating on cross-functional teams, user research.<br><br></p>
             </div>
             <img class="jojo" src="images/Jojo.png" alt="I'm Jojo" >
+
+            
         </div>
 
         <div class = "pastProjects">
